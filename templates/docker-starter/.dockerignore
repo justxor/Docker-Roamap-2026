@@ -1,0 +1,58 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+.pytest_cache
+.mypy_cache
+.ruff_cache
+.venv
+venv
+env
+.coverage
+htmlcov
+
+# Node
+node_modules
+npm-debug.log
+
+# IDE
+.idea
+.vscode
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# Logs / data
+*.log
+logs/
+data/
+tmp/
+
+# Docs / CI / Tests (опционально исключай в production-образах)
+README.md
+docs/
+tests/
+.github/
+
+# Build artifacts
+dist/
+build/
+*.egg
